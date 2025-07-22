@@ -97,6 +97,11 @@ h1 {
     color: #2980b9;
 }
 
+.article-content p, .article-content a {
+    word-break: break-word;
+    overflow-wrap: anywhere;
+}
+
 @media (max-width: 768px) {
     .container {
         padding: 20px 15px;
